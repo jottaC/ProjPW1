@@ -1,0 +1,139 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(rgba(119, 126, 144, 0.45), 
+    rgba(119, 126, 144, 0.45)), url(fondo.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+ 
+header{
+    background-color: rgba(36, 38, 37, 0.843);
+    color: white;
+    padding: 1rem 1rem;
+    opacity: 95%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+header h1{
+font-size: 3rem;
+text-align: left;
+padding: 0rem 2rem;
+}
+
+.B1{
+    
+    background-color: rgb(225, 241, 241);
+    border: rgba(22, 72, 198, 0.45);
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    
+}
+
+.B2{
+    
+    background-color: rgb(225, 241, 241);
+    border: rgba(22, 72, 198, 0.45);
+    width: 140px;
+    height: 25px;
+    border-radius: 6px;
+    margin: 0rem 2rem;
+}
+
+.B3{
+    
+    background-color: rgb(225, 241, 241);
+    border: rgba(22, 72, 198, 0.45);
+    width: 140px;
+    height: 25px;
+    border-radius: 6px;
+    margin: 0rem 0.5rem;
+}
+
+
+
+
+.menu a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 7px;
+    border-radius: 1px black;
+}
+
+.menu{
+
+    background-color: #f9f9f9;
+    width: 180px;
+    display: none;
+    position: absolute;
+    
+}
+
+.menu a:hover{
+
+    background-color: rgba(9, 159, 159, 0.861);
+}
+
+.desplegable{
+    display: block;
+    
+}
+.desplegable:hover .menu{
+    display: block;
+    width: 130px;
+    height: auto;
+    margin: 0 45px;
+   
+}
+
+.menu2{
+
+    background-color: #f9f9f9;
+    width: 180px;
+    display: none;
+    position: absolute;
+    
+}
+
+.menu2 a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 7px;
+    border-radius: 1px black;
+}
+
+.menu2 a:hover{
+
+    background-color: rgba(9, 159, 159, 0.861);
+}
+
+.desplegable:hover .menu2{
+    display: block;
+    width: 130px;
+    height: auto;
+    margin: 0 15px;
+   
+}
+
+footer{
+
+    font-size: 20px;
+    color: aquamarine;
+    background-color: rgba(36, 38, 37, 0.843);
+    padding: 2rem 2rem;
+}
+
+
+
+
